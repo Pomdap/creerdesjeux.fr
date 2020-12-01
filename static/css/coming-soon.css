@@ -1,0 +1,154 @@
+body{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1em;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
+    font-weight: 400;
+    margin: 30px 0 15px;
+}
+
+a, a:hover, a:focus, a:active {
+    color: white;
+}
+
+a:focus, a:active, 
+button::-moz-focus-inner,
+input[type="reset"]::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+select::-moz-focus-inner,
+input[type="file"] > input[type="button"]::-moz-focus-inner {
+    outline : 0;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, .navbar, .brand, .btn-simple{
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+.main{
+    background-position: center center;
+    background-size: cover;
+    height: auto;
+    left: 0;
+    min-height: 100%;
+    min-width: 100%;
+    position: absolute;
+    top: 0;
+    width: auto;
+}
+.cover{
+    position: fixed;
+    opacity: 1;
+    background-color: rgba(0,0,0,.6);
+    left: -50%;
+    top: -50%;
+    width: 200%;
+    height: 200%;
+    z-index: 1;
+}
+.cover.black{
+    background-color: rgba(0,0,0,.6);
+}
+.main .logo{
+    color: #FFFFFF;
+    font-size: 2em;
+    font-weight: 300;
+    position: relative;
+    text-align: center;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.33);
+    margin-top: 20vh;
+    z-index: 3;
+}
+.main .logo.cursive{
+    font-family: 'Grand Hotel',cursive;
+    font-size: 3.8em;
+    line-height: 0.7;
+}
+.main .content{
+    position: relative;
+    z-index: 4;
+}
+.main .motto{
+    min-height: 120px;
+}
+.main .motto, .main .subscribe .info-text{
+    font-size: 1.5em;
+    color: #FFFFFF;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.33);
+    text-align: center;
+    margin-top: 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0 10% 0 10%;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+li {
+    display: inline-block;
+    width: 24.5%;
+}
+
+@media only screen and (max-width: 1024px) {
+    li {
+        display: inline-block;
+        width: 49%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    li {
+        display: inline-block;
+        width: 99%;
+    }
+}
+
+li a {
+    border-radius: 30px;
+    display: block;
+    color: white;
+    opacity: 0.7;
+    text-align: center;
+    padding: 5%;
+    margin: 0;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    text-decoration: none;
+}
+
+li:last-child a {
+    margin-right: 0;
+}
+
+li a:hover {
+    background-color: white;
+    color: black;
+    opacity: 1;
+}
+
+.fa-color.fa-facebook-square{color:#3b5998}
+.fa-color.fa-youtube{color:#e52d27}
+.fa-color.fa-twitch{color:#6441a5}
+.fa-color.fa-twitter{color:#55acee}
+.fa-color.fa-github{color:#333}
+.fa-color.fa-itch-io{color:#333}
+/* .fa-color.fa-instagram{color:#e1306c}@media (-webkit-min-device-pixel-ratio:0){.fa-color.fa-instagram{color:transparent;background:radial-gradient(circle at 30% 107%,#fdf497 0,#fdf497 5%,#fd5949 45%,#d6249f 60%,#285aeb 90%);background:-webkit-radial-gradient(circle at 30% 107%,#fdf497 0,#fdf497 5%,#fd5949 45%,#d6249f 60%,#285aeb 90%);background-clip:text;-webkit-background-clip:text}} */
+.fa-color.fa-instagram{color:#e1306c}
+.fa-color.fa-itch-io{color:#fa5c5c}
+
+li a:not(:hover) .fab.fa-color {
+    color: white;
+}
