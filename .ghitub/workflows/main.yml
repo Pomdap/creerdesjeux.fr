@@ -1,4 +1,4 @@
-name: documentation
+name: gh-pages-deploy
 
 on:
   pull_request:
