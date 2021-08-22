@@ -1,4 +1,4 @@
-name: gh-pages-deploy
+name: Deploy to github pages
 
 on:
   workflow_dispatch:
