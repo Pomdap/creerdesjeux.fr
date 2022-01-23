@@ -1,6 +1,9 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
+const githubUrl = 'https://github.com/pomdap/creerdesjeux.fr';
+const githubEditUrl = githubUrl + '/edit/v0.1.0/';
+
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: 'My Site',
@@ -28,7 +31,7 @@ module.exports = {
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/pomdap/creerdesjeux.fr',
+          href: githubUrl,
           label: 'GitHub',
           position: 'right',
         },
@@ -72,7 +75,7 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/pomdap/creerdesjeux.fr',
+              href: githubUrl,
             },
           ],
         },
@@ -90,15 +93,11 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/pomdap/creerdesjeux.fr/edit/v0.1.0/',
+          editUrl: githubEditUrl,
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/pomdap/creerdesjeux.fr/edit/v0.1.0/',
+          editUrl: githubEditUrl,
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
