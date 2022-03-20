@@ -1,11 +1,14 @@
+// @ts-check
+// Note: type annotations allow type checking and IDEs autocompletion
+
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 const githubUrl = 'https://github.com/pomdap/creerdesjeux.fr';
 const githubEditUrl = githubUrl + '/edit/v0.1.0/';
 
-/** @type {import('@docusaurus/types').DocusaurusConfig} */
-module.exports = {
+/** @type {import('@docusaurus/types').Config} */
+const config = {
   title: 'My Site',
   tagline: 'Dinosaurs are cool',
   url: 'https://pomdap.github.io',
@@ -15,7 +18,9 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'pomdap', // Usually your GitHub org/user name.
   projectName: 'creerdesjeux.fr', // Usually your repo name.
-  themeConfig: {
+  themeConfig:
+  /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+  ({
     navbar: {
       title: 'My Site',
       logo: {
@@ -86,11 +91,12 @@ module.exports = {
       theme: lightCodeTheme,
       darkTheme: darkCodeTheme,
     },
-  },
+  }),
   presets: [
     [
-      '@docusaurus/preset-classic',
-      {
+      'classic',
+      /** @type {import('@docusaurus/preset-classic').Options} */
+      ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl: githubEditUrl,
@@ -102,7 +108,7 @@ module.exports = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
-      },
+      }),
     ],
   ],
   i18n: {
@@ -110,3 +116,5 @@ module.exports = {
     locales: ['fr'],
   },
 };
+
+module.exports = config;
