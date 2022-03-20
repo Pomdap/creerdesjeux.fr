@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkcreerdesjeux_fr=self.webpackChunkcreerdesjeux_fr||[]).push([[535],{5641:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Welcome","permalink":"/creerdesjeux.fr/blog/welcome"},{"title":"Hello","permalink":"/creerdesjeux.fr/blog/hello-world"},{"title":"Hola","permalink":"/creerdesjeux.fr/blog/hola"}]}')}}]);

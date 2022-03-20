@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkcreerdesjeux_fr=self.webpackChunkcreerdesjeux_fr||[]).push([[385],{5571:function(e){e.exports=JSON.parse('{"allTagsPath":"/creerdesjeux.fr/blog/tags","slug":"facebook","name":"facebook","count":1,"permalink":"/creerdesjeux.fr/blog/tags/facebook"}')}}]);
