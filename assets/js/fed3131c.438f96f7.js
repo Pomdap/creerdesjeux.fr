@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcreerdesjeux_fr=self.webpackChunkcreerdesjeux_fr||[]).push([[5197],{6637:e=>{e.exports=JSON.parse('{"permalink":"/creerdesjeux.fr/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

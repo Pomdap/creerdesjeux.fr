@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkcreerdesjeux_fr=self.webpackChunkcreerdesjeux_fr||[]).push([[908],{3778:function(e){e.exports=JSON.parse('{"permalink":"/creerdesjeux.fr/blog/tags/hola","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"previousPage":null,"nextPage":null,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

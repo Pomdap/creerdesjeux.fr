@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkcreerdesjeux_fr=self.webpackChunkcreerdesjeux_fr||[]).push([[658],{4218:function(e){e.exports=JSON.parse('{"allTagsPath":"/creerdesjeux.fr/blog/tags","slug":"/creerdesjeux.fr/blog/tags/docusaurus","name":"docusaurus","count":4,"permalink":"/creerdesjeux.fr/blog/tags/docusaurus"}')}}]);

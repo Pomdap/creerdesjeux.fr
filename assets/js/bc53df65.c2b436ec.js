@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcreerdesjeux_fr=self.webpackChunkcreerdesjeux_fr||[]).push([[895],{3769:e=>{e.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"default"}')}}]);
